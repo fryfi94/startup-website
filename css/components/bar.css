@@ -1,0 +1,52 @@
+.bar {
+  background-color: #7D3136; 
+  justify-content: space-between;
+  display: flex; 
+  font-display: flex;
+  padding-right: 15px;
+  padding-left: 9px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;   
+}
+
+.bar img {
+  width: 5%;
+  height: 5%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.bar a:link {
+        color: black;
+      }
+
+.bar a:visited {
+        color: black;
+      }  
+
+.bar a:hover {
+        color: #FFA205;
+}
+
+@media (max-width: 960px) {
+  .bar {
+    width: 700px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 720px) {
+  .bar {
+    width: 500px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 540px) {
+  .bar {
+    width: 300px;
+    margin: 0px auto;
+  }
+

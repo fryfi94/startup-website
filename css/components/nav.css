@@ -1,0 +1,43 @@
+.nav {
+  background-color: #fff; 
+  justify-content: space-between;
+  display: flex; 
+  font-display: flex;
+  padding-right: 15px;
+  padding-left: 9px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;   
+}
+
+.nav a:link {
+        color: black;
+      }
+
+.nav a:visited {
+        color: black;
+      }  
+
+.nav a:hover {
+        color: #FFA205;
+}
+
+@media (max-width: 960px) {
+  .nav {
+    width: 700px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 720px) {
+  .nav {
+    width: 500px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 540px) {
+  .nav {
+    width: 300px;
+    margin: 0px auto;
+  }
+

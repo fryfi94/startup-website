@@ -1,0 +1,28 @@
+.banner {
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.banner img {
+  margin: auto;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 960px) {
+  .banner {
+    width: 700px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 720px) {
+  .banner {
+    width: 500px;
+    margin: 0px auto;
+  }
+}
+@media (max-width: 540px) {
+  .banner {
+    width: 300px;
+    margin: 0px auto;
+  }
